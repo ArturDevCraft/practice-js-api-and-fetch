@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', init);
 
 async function init() {
 	console.log('DOM');
-	button();
+	initButton();
 }
 
-async function button() {
+async function initButton() {
 	const button = document.querySelector('button');
 	const ipField = document.querySelector('span');
 	try {
